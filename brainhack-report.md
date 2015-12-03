@@ -5,22 +5,22 @@ title:  "Open source low-cost device to register dog's heart rate and tail movem
 
 author:
 
+- initials: RH
+  surname: Hernandez
+  firstname: Raul
+  email: sevenedenr@gmail.com
+  affiliation: aff1
+- initials: EAM
+  surname: Morales
+  firstname: Edgar A.
+  email: edalvmor@yahoo.com.mx
+  affiliation: aff1
 - initials: LVC
   surname: Cuaya
   firstname: Laura V.
   email: lauveri.rozen@gmail.com
   affiliation: aff1
   corref: aff1
-- initials: EAM
-  surname: Morales
-  firstname: Edgar A.
-  email: edalvmor@yahoo.com.mx
-  affiliation: aff1
-- initials: RH
-  surname: Hernandez
-  firstname: Raul
-  email: sevenedenr@gmail.com
-  affiliation: aff1
 
 affiliations: 
 
