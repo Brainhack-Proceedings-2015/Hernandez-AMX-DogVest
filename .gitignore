@@ -6,3 +6,8 @@
 **/*.swo
 .dropbox
 *.docx
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
