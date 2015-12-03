@@ -39,7 +39,7 @@ coi: None
 acknow: "We would like to thank the organizers and attendees of Brainhack MX and to the Instituto de Neurobiología. Specially to Fernando Barrios Alvarez for the invitation and the support on the realization of the project.
 Laura V. Cuaya, Raul Hernández and Edgar Morales are a doctoral students from Programa de Doctorado en Ciencias Biomédicas, Universidad Nacional Autónoma de México (UNAM) and received fellowship 407590, 409258 and 215702 from CONACYT."
 
-contrib: RH wrote the software, EAM deployed report, and LVC and RH wrote the report.
+contrib: LVC generated the idea for the project, made the research, help writing the report and acquire the data. EAM and RH designed the device, build it, wrote the code and help writing the report.
   
 bibliography: brainhack-report
 
@@ -71,7 +71,7 @@ conditions.
 We decided to base our design in arduino hardware for its accessibility and broad use. The materials are detailed in the \ref{materialstable}.
 
 \begin{table*}[t!]
-\caption{\label{materialsttable} Materials and cost. The table shows most of the materials used and their approximated cost with a local provider. Other materials were used but their cost is negligible.}
+\caption{\label{materialstable} Materials and cost. The table shows most of the materials used and their approximated cost with a local provider. Other materials were used but their cost is negligible.}
 \begin{tabular}{l l}
  \hline\noalign{\smallskip}
    Materials  & Aproximated cost (in USD) \\
@@ -106,10 +106,10 @@ street without any specific command.
 
 In the stimulation/no-stimulation phase a  Wilcoxon Signed Rank Test revealed
 statistically significant differences (p < 0.05) between the beats per minute,
-beat amplitude and the tail movement amplitude \ref(centfig}.
+beat amplitude and the tail movement amplitude \ref{centfig}.
 
 \begin{figure}[h!]
-  \includegraphics[width=.47\textwidth]{figure}
+  \includegraphics[width=.47\textwidth]{figure1}
   \caption{\label{centfig}
 The results shown were obtained from two dogs under two consecutive conditions. Stimulation and No-stimulation. In panels A), B) and C), the colors represent the conditions. The panel A) represents the standard deviation from the mean of the heart beat amplitude. The panel B) represents the change on the beats per minute on both conditions minus a baseline registered directly from each dog. The vertical lines represent the standard error. The panel C) represents the standard deviation from the mean of the tail movement. The panel D) shows one of the registered dogs wearing the device.
 }
