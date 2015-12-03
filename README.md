@@ -8,17 +8,25 @@ manner dog’s cognition.
 
 ## File structure
 
-File | Description
------|------
+### Report
+File				| Description
+--------------------------------|----------------------
+brainhack-report.md		| Report markdown file
+brainhack-report-formatted.tex  | TeX output file
+figure1.pdf			| Report Figure
+brainhack-report.bib		| Report Bibliography
+brainhack-report-formatted.pdf	| Report Output File
 
- bmcart.cls            brainhack-report-formatted.aux
-brainhack-report-formatted.log  brainhack-report-formatted.tex  figure1.pdf
-scripts
-bhgn.pdf               bmc-mathphys.bst      brainhack-report-formatted.bbl
-brainhack-report-formatted.out  brainhack-report.md
-FigureAndTable.docx  text.docx
-bmcart-biblio.sty      brainhack-report.bib  brainhack-report-formatted.blg
-brainhack-report-formatted.pdf  brainhack-report-template.tex   README.md
+
+### Report Templates
+
+* bhgn.pdf               
+* bmcart.cls            
+* bmc-mathphys.bst 
+* bmcart-biblio.sty 
+* brainhack-report-template.tex
+
+> [Source](https://github.com/ccraddock/brainhack_reports)
 
 ### Scripts
 
