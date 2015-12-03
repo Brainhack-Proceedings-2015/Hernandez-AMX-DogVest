@@ -8,7 +8,7 @@ author:
 - initials: RH
   surname: Hernandez
   firstname: Raul
-  email: sevenedenr@gmail.com
+  email: raul@lafuentelab.org
   affiliation: aff1
 - initials: EAM
   surname: Morales
