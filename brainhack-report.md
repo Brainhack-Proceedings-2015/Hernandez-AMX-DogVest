@@ -111,7 +111,7 @@ statistically significant differences (p < 0.05) between the beats per minute,
 beat amplitude and the tail movement amplitude \ref(centfig}.
 
 \begin{figure}[h!]
-  \includegraphics[width=.47\textwidth]{centrality_plot}
+  \includegraphics[width=.47\textwidth]{figure}
   \caption{\label{centfig}
 The results shown were obtained from two dogs under two consecutive conditions. Stimulation and No-stimulation. In panels A), B) and C), the colors represent the conditions. The panel A) represents the standard deviation from the mean of the heart beat amplitude. The panel B) represents the change on the beats per minute on both conditions minus a baseline registered directly from each dog. The vertical lines represent the standard error. The panel C) represents the standard deviation from the mean of the tail movement. The panel D) shows one of the registered dogs wearing the device.
 }
