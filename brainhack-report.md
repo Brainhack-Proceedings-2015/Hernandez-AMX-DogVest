@@ -61,7 +61,7 @@ Altough heart rate and the tail movement are important gateways to understand
 dog’s cognition, just a few studies report these variables. Perhaps this is
 related to the difficulty of obtaining records of these variables in natural
 enviroments (e.g., parks), the elevated cost of a commercial data adquisition
-hardware (around $5,000 USD)  or by inexistence of a tail-movement
+hardware (around $5,000 USD \cite{paragonURL} )  or by inexistence of a tail-movement
 registering device. For these reasons, the goal of this brainhack project is to
 design and build a low cost device able to register the heart rate and changes
 in the tail movement in dogs, both in laboratory and in free movement
