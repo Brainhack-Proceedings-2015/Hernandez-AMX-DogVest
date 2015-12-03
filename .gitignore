@@ -4,3 +4,4 @@
 *.swo
 **/*.swo
 .dropbox
+*.docx
