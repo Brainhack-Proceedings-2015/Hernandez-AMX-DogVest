@@ -6,8 +6,8 @@ title:  "Open source low-cost device to register dog's heart rate and tail movem
 author:
 
 - initials: RH
-  surname: Hernandez
-  firstname: Raul
+  surname: Hernández-Pérez
+  firstname: Raúl
   email: raul@lafuentelab.org
   affiliation: aff1
 - initials: EAM
@@ -68,7 +68,8 @@ conditions.
 
 # Approach
 
-We decided to base our design in arduino hardware for its accessibility and broad use. The materials are detailed in the \ref{materialstable}.
+We decided to base our design in arduino hardware for its accessibility and
+broad use. The materials are detailed in the Table \ref{materialstable}.
 
 \begin{table*}[t!]
 \caption{\label{materialstable} Materials and cost. The table shows most of the materials used and their approximated cost with a local provider. Other materials were used but their cost is negligible.}
@@ -106,7 +107,7 @@ street without any specific command.
 
 In the stimulation/no-stimulation phase a  Wilcoxon Signed Rank Test revealed
 statistically significant differences (p < 0.05) between the beats per minute,
-beat amplitude and the tail movement amplitude \ref{centfig}.
+beat amplitude and the tail movement amplitude (Figure \ref{centfig}).
 
 \begin{figure}[h!]
   \includegraphics[width=.47\textwidth]{figure1}
