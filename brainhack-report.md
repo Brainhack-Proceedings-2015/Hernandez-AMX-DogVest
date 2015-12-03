@@ -1,7 +1,7 @@
 ---
 event: '2015 Brainhack Americas (MX)'
 
-title:  'Optimized implementations of voxel-wise degree centrality and local functional connectivity density mapping in AFNI'
+title:  "Open source low-cost device to register dog's heart rate and tail movement"
 
 author:
 
@@ -25,7 +25,7 @@ author:
 affiliations: 
 
 - id: aff1
-  orgname: 'Instituto de Neurobiología"
+  orgname: 'Instituto de Neurobiología'
   street: Boulevard Juriquilla 3001
   postcode: 76230
   city: Queretaro
@@ -36,8 +36,8 @@ url: https://github.com/nekrum/DogVest
 
 coi: None
 
-acknow: We would like to thank the organizers and attendees of Brainhack MX and to the Instituto de Neurobiología. Specially to Fernando Barrios Alvarez for the invitation and the support on the realization of the project.
-Laura V. Cuaya, Raul Hernández and Edgar Morales are a doctoral students from Programa de Doctorado en Ciencias Biomédicas, Universidad Nacional Autónoma de México (UNAM) and received fellowship 407590, 409258 and 215702 from CONACYT.  
+acknow: "We would like to thank the organizers and attendees of Brainhack MX and to the Instituto de Neurobiología. Specially to Fernando Barrios Alvarez for the invitation and the support on the realization of the project.
+Laura V. Cuaya, Raul Hernández and Edgar Morales are a doctoral students from Programa de Doctorado en Ciencias Biomédicas, Universidad Nacional Autónoma de México (UNAM) and received fellowship 407590, 409258 and 215702 from CONACYT."
 
 contrib: RH wrote the software, EAM deployed report, and LVC and RH wrote the report.
   
@@ -45,8 +45,6 @@ bibliography: brainhack-report
 
 gigascience-ref: REFXXX
 ...
-
-
 
 # Introduction
 
