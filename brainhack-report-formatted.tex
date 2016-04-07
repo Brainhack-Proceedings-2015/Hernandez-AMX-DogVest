@@ -230,6 +230,19 @@ We decided to base our design in arduino hardware for its accessibility
 and broad use. The materials are detailed in the Table
 \ref{materialstable}.
 
+The arduino UNO were used as the processor unit of the device. It is a
+flexible device that process the voltage changes in the sensors using
+analog inputs. It can be programmed to use other sensors or to trigger
+the sensor readings using a different setup. The EKG-EMG-shield
+amplifies the changes in the voltage detected by the electrodes and
+sends them to the arduino. The vibration sensor detects vibrations and
+transforms them to voltage changes that the arduino collects. We used a
+9v rechargeable battery to operate the device but arduino supports
+different energy supplies and it can be change without affecting the
+overall operation of the device. The SD Card Reader module ARM MCU
+connects to the arduino and allows it to write the data acquired to an
+SD card.
+
 \begin{table*}[t!]
 \caption{\label{materialstable} Materials and cost. The table shows most of the materials used and their approximated cost with a local provider. Other materials were used but their cost is negligible.}
 \begin{tabular}{l l}
@@ -250,6 +263,24 @@ We designed and 3d printed a PLA case to contain the circuit. The case
 has a slot to add a strap to fix the device on the dogs back. The
 program for the arduino and the model for the case can be downloaded
 from the GitHub (scripts directory) repository of the project.
+
+The code generates a csv file that contains the values obtained from
+samples of the analog inputs, the input voltage (from 0 to 5 volts) is
+converted to integers that range from 0 to 1023. The sample time and
+sample rate can be modified from the variables of the code. For the
+example data, we tested it at 10Hz although according to the
+manufacturer, an arduino is capable of sampling the analog pins up to
+10MHz. We used two types of sensors, a vibration sensor to detect the
+heart beat and an EMG sensor to detect the tail wagging. The vibration
+sensor was placed in the chest, close to the heart. The movement in the
+heart was reflected as a change on the voltage sent from the sensor to
+the arduino. From these changes, the beats per minute were calculated
+using ecgbeat function in MATLAB \cite{ecgbeat}. To estimate the change
+in the heart beat amplitude, we calculated from the raw signal the
+standard deviation from the mean. The set of EMG electrodes registered
+the tail wagging amplitude in changes on the voltage between the
+electrodes. So, a greater dispersion of the readings from the sensor
+implies that the dog is waging his tail more.
 
 In order to asses if the device could reliably get readings from a dog,
 we tested it in three phases: baseline, stimulation/no-stimulation and
@@ -273,7 +304,7 @@ amplitude (Figure \ref{centfig}).
 \begin{figure}[h!]
   \includegraphics[width=.47\textwidth]{figure1}
   \caption{\label{centfig}
-The results shown were obtained from two dogs under two consecutive conditions. Stimulation and No-stimulation. In panels A), B) and C), the colors represent the conditions. The panel A) represents the standard deviation from the mean of the heart beat amplitude. The panel B) represents the change on the beats per minute on both conditions minus a baseline registered directly from each dog. The vertical lines represent the standard error. The panel C) represents the standard deviation from the mean of the tail movement. The panel D) shows one of the registered dogs wearing the device.
+The results shown were obtained from two dogs under two consecutive conditions. Stimulation(S) and No-stimulation(NS). In panels A), B) and C), the colors represent the conditions. The panel A) represents the standard deviation from the mean of the heart beat amplitude. The panel B) represents the change on the beats per minute on both conditions minus a baseline registered directly from each dog. The vertical lines represent the standard error. The panel C) represents the standard deviation from the mean of the tail movement. The panel D) shows one of the registered dogs wearing the device.
 }
 \end{figure}
 
@@ -290,6 +321,14 @@ We were able to build and test a non-invasive low cost device with the
 capacity to register the heart rate and the tail movement of dogs. We
 consider that the addition of a movement sensor could provide additional
 data to reduce the change on the signal due to movement.
+
+Even though the vibration sensor gave us adequate readings on the heart
+rate in the stimulation and no stimulation conditions, the free movement
+condition produced to much noise on the sensor, which results in a
+limiting in the use of the device during movement, it is possible to use
+different sensors such as an EKG sensor for humans that doesn't rely on
+movement. In the case of the EMG sensor, both, the vibration sensor and
+the EMG sensor can be replaced or new sensors can be added.
 
 This device can be integrated in future research on dog's cognition. It
 can also be used in shelters and homes to easily measure the responses
