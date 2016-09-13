@@ -134,7 +134,8 @@ street without any specific command.
 
 # Results
 
-In the stimulation/no-stimulation phase a  Wilcoxon Signed Rank Test revealed
+The results showed that the device could be used to distinguish between two different stimulation
+conditions. In the stimulation/no-stimulation phase a  Wilcoxon Signed Rank Test revealed
 statistically significant differences (p < 0.05) between the beats per minute,
 beat amplitude and the tail movement amplitude (Figure \ref{centfig}).
 
@@ -149,7 +150,7 @@ By matching the data collected with observations of the movement of the tail, we
 notice that the data reflects the position of the tail but its resolution
 depended on the position of the electrode.
 
-The data acquire from the free movement condition was affected by the movement
+The data acquired from the free movement condition was affected by the movement
 and didn’t seem reliable for testing.
 
 # Conclusions
@@ -177,6 +178,4 @@ well-being of the dog.
 
 
 The low cost and the easy access to the materials needed to build the device
-make it a feasible option to study dog cognition. The results showed that the
-device could be used to distinguish between two different stimulation
-conditions.
+make it a feasible option to study dog cognition.
