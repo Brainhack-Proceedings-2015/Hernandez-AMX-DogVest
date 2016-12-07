@@ -43,7 +43,7 @@ contrib: LVC generated the idea for the project, made the research, help writing
   
 bibliography: brainhack-report
 
-gigascience-ref: REFXXX
+gigascience-ref: http://gigadb.org/dataset/100228
 ...
 
 # Introduction
